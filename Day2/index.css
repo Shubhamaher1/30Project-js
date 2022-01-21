@@ -1,0 +1,49 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.joke{
+    color: white;
+    font-size: 30px;
+}
+section{
+    min-height: 100%;
+    width: 100%;
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.contener{
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: rgb(42, 75, 146);
+    border-radius: 8px;
+    justify-content: center;
+    padding: 4rem;
+    
+
+}
+button{
+    margin-top: 4rem;
+    width: fit-content;
+    padding: 2rem;
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: end;
+    
+}
