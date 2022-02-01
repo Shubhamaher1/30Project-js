@@ -20,4 +20,6 @@ window.addEventListener("click",()=>{
         cursor.classList.add("click");
     }
     
+
+    
 });
