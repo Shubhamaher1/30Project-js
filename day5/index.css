@@ -27,17 +27,68 @@
     background-size: contain;
     background-repeat: no-repeat;
   }
-  .min,
-  .sec,
-  .hour {
+  .min{
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 30%;
+    width: 28%;
     height: 5px;
     background-color: rgb(0, 0, 0);
     transform-origin: left;
     border-radius: 50%;
     transform: rotate(-90deg);
   }
-  
+  .sec{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 30%;
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+    transform-origin: left;
+    border-radius: 50%;
+    transform: rotate(-90deg);
+  }
+  .hour {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 25%;
+    height: 7px;
+    background-color: rgb(0, 0, 0);
+    transform-origin: left;
+    border-radius: 50%;
+    transform: rotate(-90deg);
+  }
+  .circle{
+    position: absolute;
+    top: 48.5%;
+    left: 48%;
+    width:20px;
+    height: 20px;
+    background-color: rgb(0, 0, 0);
+    transform: rotate(200deg);
+    border-radius: 50%;
+
+  }
+  .name{
+    text-align: center;
+    position: absolute;
+    top: 33%;
+    left: 45%;
+    font-weight: bolder;
+
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+  .inputDate{
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    width: 60px;
+    height: 20px;
+    border: 2px solid black;
+    font-weight: bolder;
+  }
