@@ -16,4 +16,3 @@ from.addEventListener("submit", (e) => {
       fact.innerHTML = err;
     });
 });
-//fatching the data
