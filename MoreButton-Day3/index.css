@@ -1,0 +1,37 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+section {
+  background-color: aliceblue;
+}
+.main {
+  background-color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  max-width: 600px;
+  margin-left: 30px;
+  color: black;
+}
+.para {
+  font-size: 30px;
+}
+.morePara {
+  display: none;
+}
+button {
+  padding: 15 px 60px;
+  background-color: white;
+  color: turquoise;
+  border: none;
+  outline: none;
+  font-size: 25px;
+  cursor: pointer;
+}
+.show-more .morePara {
+  display: inline;
+}
+.notdot {
+  display: none;
+}
