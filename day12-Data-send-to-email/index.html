@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eamil form</title>
+    <link rel="stylesheet" href="./index.css" />
+    <script src="./index.js" defer></script>
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <form
+          action="https://formspree.io/f/xdobevlv"
+          method="post"
+          id="my-form"
+        >
+          <div class="from-grop">
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" name="firstName" required />
+          </div>
+          <div class="from-grop">
+            <label for="lName">Lst Name</label>
+            <input type="text" id="lName" name="lName" required />
+          </div>
+          <div class="from-grop">
+            <label for="email">Email</label>
+            <input type="email" id="emil" name="email" required />
+          </div>
+          <div class="from-grop">
+            <label for="Massage">Massage</label>
+            <textarea
+              name="Massage"
+              id="Massage"
+              cols="30"
+              rows="10"
+              required
+            ></textarea>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+      <div id="status"></div>
+    </section>
+  </body>
+</html>
