@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form More Section</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js" defer></script>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <form action="">
+                <div class="step step-1 active">
+                    <div class="from-grp">
+                        <label for="Fname">First Name</label>
+                        <input type="text" id="Fname" name="Fname" required>
+                    </div>
+                    <div class="from-grp">
+                        <label for="Lname">Last Name</label>
+                        <input type="text" id="Lname" name="Lname" required>
+                    </div>
+                    <div class="from-grp">
+                        <label for="sirNmae">Sir Name</label>
+                        <input type="text" id="sirNmae" name="sirNmae" required>
+                    </div>
+                    <button type="button" class="next-bt" id="nextBtn1">Next</button>
+                </div>
+                <div class="step step-2 ">
+                    <div class="from-grp">
+                        <label for="Email">Email ID</label>
+                        <input type="email" id="Email" name="Email" required >
+                    </div>
+                    <div class="from-grp">
+                        <label for="Phone">Phono</label>
+                        <input type="number" id="Phone" name="Phone"required >
+                    </div>
+                    <button type="button" class="prv-btn">Prv</button>
+                    <button type="button" class="next-bt">Next</button>
+          
+                </div>
+                <div class="step step-3 ">
+                    <div class="from-grp">
+                        <label for="Contry">Cuntry Name</label>
+                        <input type="text" id="Contry" name="Contry">
+                    </div>
+                    <div class="from-grp">
+                        <label for="Postcode">Post Code</label>
+                        <input type="number" id="Postcode" name="Postcode" required >
+                    </div>
+                    <button type="button" class="prv-btn">Prv</button>
+                    <button type="submit" class="submit">submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
